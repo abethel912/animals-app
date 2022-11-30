@@ -1,0 +1,42 @@
+NEW.EJS
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <main>
+    <div>
+      <form action="/animals" method="post">
+
+        <fieldset>
+          <legend>EDIT A <%= data.species %>
+          </legend>
+          <label>
+            SPECIES: <input type="text" name="species" value="<%= data.species %>" placeholder="Species"><br>
+          </label>
+          <label>
+            IMAGE:<input type="text" name="img" placeholder="Image Link"><br>
+          </label>
+          <label>
+            LOCATION: <input type="text" name="location" value="<%= data.location %>" placeholder="Location"><br>
+          </label>
+          <label>
+            LIFE EXPECTANCY: <input type="text" name="life expectancy" value="<%= data.lifeExpectancy %>"
+              placeholder="Age"><br>
+          </label>
+          <label>
+            EXTINCT: <input type="checkbox" name="isExtinct"><br>
+            <%=data.isExtinct ? "checked" : "" %>
+          </label>
+
+        </fieldset>
+        <input type="submit" value="Update <%= data.species%>" />
+      </form>
+
+    </div>
+
+  </main>
+
+</body>
+
+</html>
