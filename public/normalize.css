@@ -1,0 +1,60 @@
+NORMALIZE.CSS html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  height: 100%;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 400;
+  background-image: url(https://i.imgur.com/L16TrOk.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+
+}
+
+.add-button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+  color: #F55F00;
+  border: none;
+  cursor: pointer;
+
+}
+
+div {
+  padding: -10px;
+}
+
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  border: 3px solid white;
+  padding: 15px;
+}
