@@ -1,0 +1,17 @@
+SKELETON.CSS * {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
